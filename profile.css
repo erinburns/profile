@@ -1,0 +1,205 @@
+/* CSS for profile page */
+
+html, body {
+	height: 100%;
+}
+
+body {
+  font-family:"Helvetica Bold", "Arial Black", "Arial Rounded MT Bold", Impact, sans-serif;
+  font-size:1em;
+  color:#454859;
+  background-color:#a4becb;
+  /* width: 90%;  */
+}
+
+
+/* aside */
+aside {
+  width: 30%;
+  float:left;
+  padding-left: 5%;
+  /* margin-top: 2%;  */
+}
+
+.essentials {
+  font-size:1em;
+  color:#454859;
+  font-family: "Lucida Sans Typewriter", Lucida Console, monaco, monospace;
+  line-height: 1.5em;
+}
+
+.three, .six {
+  float: left;
+  color: rgba(255,255,255,0.5);
+  font-size: 10em;
+}
+
+.clearfix{
+    clear:both    /* to arrange 3 and 6 side by side */
+}
+
+.three {
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(-45deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-45deg);
+
+  /* IE */
+  -ms-transform: rotate(-45deg);
+
+  /* Opera */
+  -o-transform: rotate(-45deg);
+
+  padding-top: 1%
+}
+
+.six {
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(45deg);
+
+  /* Firefox */
+  -moz-transform: rotate(45deg);
+
+  /* IE */
+  -ms-transform: rotate(45deg);
+
+  /* Opera */
+  -o-transform: rotate(45deg);
+
+  padding-top: 25%;
+  padding-left: 15%;
+}
+
+.profilepic {
+  border: 0.2em solid rgba(255,255,255,0.5);
+  margin-top: 25%;
+  margin-bottom: 3%;
+  width: 75%;
+  height: 85%;
+  float: left;
+}
+
+.bluetick, .fullname {
+  float: left;
+}
+
+ .clearflux {
+  clear:both;   /* puts bluetick next to fullname */
+}
+
+.fullname {
+  font-size: 1.5em;
+  min-width: 40%;  /* prevents name from floating to right above profilepic*/
+}
+
+.bluetick {
+    padding-left: 3%;
+}
+
+.hisfor {
+  color: #454859;
+  font-size: 8em;
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(-30deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-30deg);
+
+  /* IE */
+  -ms-transform: rotate(-30deg);
+
+  /* Opera */
+  -o-transform: rotate(-30deg);
+}
+
+.ello {
+  color: #454859;
+  font-size: 5em;
+  padding-top: 20%;
+  padding-left: 35%;
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(25deg);
+
+  /* Firefox */
+  -moz-transform: rotate(25deg);
+
+  /* IE */
+  -ms-transform: rotate(25deg);
+
+  /* Opera */
+  -o-transform: rotate(25deg);
+}
+
+/* begin main styling */
+main {
+  float:right;
+  font-family: "Lucida Sans Typewriter", Lucida Console, monaco, monospace;
+  width: 50%;
+  margin-top: 2%;
+  padding-right: 5%;
+}
+
+.largename {
+  font-size: 6.8em;
+  font-family:"Helvetica Bold", "Arial Black", "Arial Rounded MT Bold", Impact, sans-serif;
+}
+
+/* content styling for main  */
+
+h1 {
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-bottom: 2.5%;
+}
+
+.info {
+    padding-top: 15%;  /* adds space between bottom of largename and top of content borders */
+}
+
+.info p {
+      padding-bottom: 4%    /* adds space between paragraphs */
+}
+
+.presently, .previously, .constantly {
+  padding: 5%;
+  border: 0.2em dotted rgba(255,255,255,0.5);
+  line-height: normal;
+
+}
+
+.presently {
+  border: 0.2em dotted rgba(255,255,255,0.5);
+}
+
+.previously {
+  border-top: none;
+}
+
+.constantly {
+  border-top: none;
+}
+
+/* Link styling */
+a {
+  outline: none;
+  text-decoration: underline;
+  font-family: "Lucida Sans Typewriter", Lucida Console, monaco, monospace;
+  font-size:1em;
+  color:#454859;
+
+}
+
+a:hover, :focus, :active, :visited {
+  color: rgb(205, 144, 14);
+  font-weight: bold;
+}
+
+
+
+/*  */
